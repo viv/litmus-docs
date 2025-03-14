@@ -30,7 +30,7 @@ The following are required before creating a Chaos Experiment:
 
 ## Defining and executing a chaos experiment
 
-LitmusChaos leverages the popular GitOps tool **Argo** to achieve this goal. Argo enables the creation of different chaos experiments together in form of chaos experiments which are extremely simple and efficient to use.
+LitmusChaos leverages the popular GitOps tool **Argo** to achieve this goal. Argo enables the grouping of different chaos faults together in the form of chaos experiments which are extremely simple and efficient to use.
 
 With the help of **ChaosCenter**, chaos experiments with different types of faults can be created. In a Chaos Experiment, the faults can be set to execute in parallel to each other and the user can tune the chaos experiment by adding additional steps to simulate a desired fault that might occur in the production stage.
 
